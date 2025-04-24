@@ -1,0 +1,61 @@
+.app {
+  text-align: center;
+  margin: 20px;
+}
+
+.signal-card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 10px auto;
+  width: 200px;
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+}
+
+.signal-light {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 10px auto;
+}
+
+.signal-light.red {
+  background-color: red;
+}
+
+.signal-light.yellow {
+  background-color: yellow;
+}
+
+.signal-light.green {
+  background-color: green;
+}
+
+.popup {
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -20%);
+  background: white;
+  border: 1px solid #ddd;
+  padding: 20px;
+  z-index: 10;
+}
+
+.popup table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.popup th, .popup td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
